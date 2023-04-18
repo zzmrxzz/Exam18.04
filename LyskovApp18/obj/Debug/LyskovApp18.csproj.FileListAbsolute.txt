@@ -1,0 +1,17 @@
+C:\Users\0_311_2\Desktop\LyskovApp18\obj\Debug\LyskovApp18.csproj.AssemblyReference.cache
+C:\Users\0_311_2\Desktop\LyskovApp18\obj\Debug\LyskovApp18.csproj.SuggestedBindingRedirects.cache
+C:\Users\0_311_2\Desktop\LyskovApp18\obj\Debug\LyskovApp18.MainWindow.resources
+C:\Users\0_311_2\Desktop\LyskovApp18\obj\Debug\LyskovApp18.Properties.Resources.resources
+C:\Users\0_311_2\Desktop\LyskovApp18\obj\Debug\LyskovApp18.csproj.GenerateResource.cache
+C:\Users\0_311_2\Desktop\LyskovApp18\obj\Debug\LyskovApp18.csproj.CoreCompileInputs.cache
+C:\Users\0_311_2\Desktop\LyskovApp18\bin\Debug\LyskovApp18.exe.config
+C:\Users\0_311_2\Desktop\LyskovApp18\bin\Debug\LyskovApp18.exe
+C:\Users\0_311_2\Desktop\LyskovApp18\bin\Debug\LyskovApp18.pdb
+C:\Users\0_311_2\Desktop\LyskovApp18\obj\Debug\LyskovApp18.exe
+C:\Users\0_311_2\Desktop\LyskovApp18\obj\Debug\LyskovApp18.pdb
+C:\Users\0_311_2\Desktop\LyskovApp18\obj\Debug\LyskovApp18.Clients.resources
+C:\Users\0_311_2\Desktop\LyskovApp18\obj\Debug\LyskovApp18.Uslugi.resources
+C:\Users\0_311_2\Desktop\LyskovApp18\obj\Debug\LyskovApp18.Otdeli.resources
+C:\Users\0_311_2\Desktop\LyskovApp18\obj\Debug\LyskovApp18.DopUslugi.resources
+C:\Users\0_311_2\Desktop\LyskovApp18\obj\Debug\LyskovApp18.Sotrudniki.resources
+C:\Users\0_311_2\Desktop\LyskovApp18\obj\Debug\LyskovApp18.Print.resources

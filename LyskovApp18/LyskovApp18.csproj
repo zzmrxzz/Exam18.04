@@ -1,0 +1,201 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{4E12342C-93F5-496D-A95F-B367D2CC5D2D}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>LyskovApp18</RootNamespace>
+    <AssemblyName>LyskovApp18</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Clients.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Clients.Designer.cs">
+      <DependentUpon>Clients.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DopUslugi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DopUslugi.Designer.cs">
+      <DependentUpon>DopUslugi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Fitnes_LyskovDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Fitnes_LyskovDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Fitnes_LyskovDataSet1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Fitnes_LyskovDataSet1.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Fitnes_LyskovDataSet2.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Fitnes_LyskovDataSet2.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Fitnes_LyskovDataSet3.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Fitnes_LyskovDataSet3.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="MainWindow.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainWindow.Designer.cs">
+      <DependentUpon>MainWindow.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Otdeli.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Otdeli.Designer.cs">
+      <DependentUpon>Otdeli.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Print.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Print.Designer.cs">
+      <DependentUpon>Print.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Sotrudniki.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Sotrudniki.Designer.cs">
+      <DependentUpon>Sotrudniki.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Uslugi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Uslugi.Designer.cs">
+      <DependentUpon>Uslugi.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Clients.resx">
+      <DependentUpon>Clients.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DopUslugi.resx">
+      <DependentUpon>DopUslugi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainWindow.resx">
+      <DependentUpon>MainWindow.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Otdeli.resx">
+      <DependentUpon>Otdeli.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Print.resx">
+      <DependentUpon>Print.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Sotrudniki.resx">
+      <DependentUpon>Sotrudniki.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Uslugi.resx">
+      <DependentUpon>Uslugi.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Fitnes_LyskovDataSet.xsc">
+      <DependentUpon>Fitnes_LyskovDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="Fitnes_LyskovDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Fitnes_LyskovDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Fitnes_LyskovDataSet.xss">
+      <DependentUpon>Fitnes_LyskovDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="Fitnes_LyskovDataSet1.xsc">
+      <DependentUpon>Fitnes_LyskovDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="Fitnes_LyskovDataSet1.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Fitnes_LyskovDataSet1.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Fitnes_LyskovDataSet1.xss">
+      <DependentUpon>Fitnes_LyskovDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="Fitnes_LyskovDataSet2.xsc">
+      <DependentUpon>Fitnes_LyskovDataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="Fitnes_LyskovDataSet2.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Fitnes_LyskovDataSet2.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Fitnes_LyskovDataSet2.xss">
+      <DependentUpon>Fitnes_LyskovDataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="Fitnes_LyskovDataSet3.xsc">
+      <DependentUpon>Fitnes_LyskovDataSet3.xsd</DependentUpon>
+    </None>
+    <None Include="Fitnes_LyskovDataSet3.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Fitnes_LyskovDataSet3.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Fitnes_LyskovDataSet3.xss">
+      <DependentUpon>Fitnes_LyskovDataSet3.xsd</DependentUpon>
+    </None>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

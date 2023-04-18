@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32602.215
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LyskovApp18", "LyskovApp18.csproj", "{4E12342C-93F5-496D-A95F-B367D2CC5D2D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4E12342C-93F5-496D-A95F-B367D2CC5D2D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4E12342C-93F5-496D-A95F-B367D2CC5D2D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4E12342C-93F5-496D-A95F-B367D2CC5D2D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4E12342C-93F5-496D-A95F-B367D2CC5D2D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7F932391-7440-403F-8789-CA15142F95E2}
+	EndGlobalSection
+EndGlobal
